@@ -1,4 +1,6 @@
 Abbreviation,Meaning
+Abbreviation,Meaning
+Abbreviation,Meaning
 A,Address
 AAAA,Authentication
 ACL,Access Control List
@@ -71,7 +73,6 @@ DTLS,Datagram Transport Layer Security
 DWDM,Dense Wavelength Division Multiplexing
 E1,E-Carrier Level 1
 EAP,Extensible Authentication Protocol
-EBCDIC,Extended Binary Coded Decimal Interchange Code
 EDNS,Extension Mechanisms for DNS
 EMI,Electromagnetic Interference
 ESD,Electrostatic Discharge
@@ -153,7 +154,6 @@ MDIX,Media Dependent Interface Crossover
 MFA,Multi-factor Authentication
 MGCP,Media Gateway Control Protocol
 MIB,Management Information Base
-MIMO,Multiple Input
 MLA,Master License Agreement/Multilateral Agreement
 MMF,Multimode Fiber
 MOA,Memorandum of Agreement
@@ -224,7 +224,6 @@ RFI,Radio Frequency Interference
 RFP,Request for Proposal
 RIP,Routing Internet Protocol
 RJ,Registered Jack
-RPO,Recovery Point Objective
 RSA,Rivest
 RSH,Remote Shell
 RSTP,Rapid Spanning Tree Protocol
