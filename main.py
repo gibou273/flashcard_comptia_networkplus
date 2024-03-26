@@ -52,7 +52,7 @@ def remove_known_acronym():
 
 
 screen = Tk()
-screen.title("Flashcard - CompTIA Security+ Acronyms")
+screen.title("Flashcard - CompTIA Network+ Acronyms")
 screen.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 # Flip the card after a given amount of seconds
 timer_to_flip_card = screen.after(3000, func=flip_the_card)
