@@ -1,6 +1,8 @@
 Abbreviation,Meaning
 Abbreviation,Meaning
 Abbreviation,Meaning
+Abbreviation,Meaning
+Abbreviation,Meaning
 A,Address
 AAAA,Authentication
 ACL,Access Control List
@@ -40,7 +42,6 @@ CSMA/CD,Carrier Sense Multiple Access/Collision Detection
 CHAP,Challenge Handshake Authentication Protocol
 CIDR,Classless Inter-Domain Routing
 CIFS,Common Internet File System
-CNAME,Canonical Name
 CoS,Class of Service
 CPU,Central Processing Unit
 CRAM-MD5,Challenge-Response Authentication Mechanism-Message Digest 5
@@ -303,4 +304,3 @@ WPA,WiFi Protected Access
 WPS,WiFi Protected Setup
 XDSL,Extended Digital Subscriber Line
 XML,eXtensible Markup Language
-Zeroconf,Zero Configuration

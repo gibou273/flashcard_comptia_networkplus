@@ -1,9 +1,9 @@
-from tkinter import Tk, Canvas, Button
+from tkinter import Tk, Canvas, PhotoImage, Button
 import pandas
 import random
 
-BACKGROUND_COLOR = "#B1DDC6"
 
+BACKGROUND_COLOR = "#a3d3d6"
 
 acronyms_to_learn = []
 current_item = {}
@@ -67,10 +67,10 @@ canvas.config(bg=BACKGROUND_COLOR, highlightthickness=0)
 canvas.grid(row=0, column=0, columnspan=2)
 
 # unknown button
-unknown_button = Button(text="I don't Know", font=("Ariel", 18, "italic"), width=10, bg="red", highlightthickness=0, command=next_card)
+unknown_button = Button(text="I don't Know", font=("Ariel", 18, "italic"), width=10, bg="#d95730", fg="white", highlightthickness=0, command=next_card)
 unknown_button.grid(row=1, column=0)
 # Known button
-known_button = Button(text="I Know", font=("Ariel", 18, "italic"), bg="green", width=10, highlightthickness=0, command=remove_known_acronym)
+known_button = Button(text="I Know", font=("Ariel", 18, "italic"), bg="#84d930", fg="white", width=10, highlightthickness=0, command=remove_known_acronym)
 known_button.grid(row=1, column=1)
 
 next_card()
