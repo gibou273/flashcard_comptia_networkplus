@@ -1,6 +1,7 @@
 from tkinter import Tk, Canvas, PhotoImage, Button
 import pandas
 import random
+import os
 
 
 BACKGROUND_COLOR = "#a3d3d6"
@@ -48,7 +49,14 @@ def remove_known_acronym():
     acronyms_to_learn.remove(current_item)
     unknown_acronyms = pandas.DataFrame(acronyms_to_learn)
     unknown_acronyms.to_csv("data/acronyms_to_learn.csv", index=False)
-    next_card()
+    # Check if user knows all the words, by checking if the acronyms_to_learn.csv file is empty
+    # when empty then delete the file, to avoid IndexError:index out of range error when user runs it again
+    if len(acronyms_to_learn) == 0:
+        print("congrats! Now you can go and do the exams")
+        if os.path.exists("data/acronyms_to_learn.csv"):
+            os.remove("data/acronyms_to_learn.csv")
+    else:
+        next_card()
 
 
 screen = Tk()
