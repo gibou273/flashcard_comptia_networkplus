@@ -60,7 +60,7 @@ def remove_known_acronym():
     # when empty then delete the file, to avoid IndexError:index out of range error when user runs it again
     # print(len(acronyms_to_learn))
     if len(acronyms_to_learn) == 0:
-        print("congrats! Now you can go and do the exams")
+        # print("congrats! Now you can go and do the exams")
         if os.path.exists("data/acronyms_to_learn.csv"):
             os.remove("data/acronyms_to_learn.csv")
         # Send email to remind user to go and take the CompTia Exams.
