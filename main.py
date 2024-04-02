@@ -63,6 +63,8 @@ def remove_known_acronym():
         # print("congrats! Now you can go and do the exams")
         if os.path.exists("data/acronyms_to_learn.csv"):
             os.remove("data/acronyms_to_learn.csv")
+        # Close the flashcard screen/window when user master all the acronyms
+        screen.destroy()
         # Send email to remind user to go and take the CompTia Exams.
         with smtplib.SMTP(SMTP_GMAIL_ADDRESS, SMTP_GMAIL_PORT) as connection:
             # secure the connection from malicious hackers or attackers
