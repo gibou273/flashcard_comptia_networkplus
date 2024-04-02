@@ -19,4 +19,4 @@ def send_mail(message):
         # message_to_send = "Hello!\nYou can now go and take the CompTIA Network+ Exams.\n\nRegards"
         # message_to_send = "Hello!\nYou can now go and take the CompTIA Network+ Exams.\n\nRegards"
         connection.sendmail(from_addr=my_email_address, to_addrs=to_email_address,
-                            msg=f"Subject:Congratulations\n\nHello!\n{message}\n\nRegards\nYour Favourite Security+ App")
+                            msg=f"Subject:Congratulations\n\nHello!\n{message}\n\nRegards\nYour Favourite Network+ App")
